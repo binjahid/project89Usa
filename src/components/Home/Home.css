@@ -1,0 +1,46 @@
+.homeContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url("../../assets/images/SamuraiBG.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+}
+.clanIconsCotainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1%;
+    top: 25%;
+}
+.clanIcon{
+    width: 4rem;
+    height: auto;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.HomeContentContainer{
+    position: absolute;
+    left: 12%;
+    top: 35%;
+}
+.homeTitleContainer{
+    height: 11rem;
+    position: relative;
+}
+.homeTitle{
+    color: white;
+    font-family: kashima;
+    font-size: 10rem;
+    margin: 0;
+}
+.homeDes{
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+@font-face {
+    font-family: kashima;
+    src: url("../../assets/Font/Kashima.otf");
+}
