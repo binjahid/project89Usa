@@ -49,7 +49,12 @@
 @media screen and (max-width : 600px) {
     .navContainer{
         display: none;
-        z-index: 100;
+    }
+    .menuToogle{
+        display: block !important;
+        cursor: pointer;
+        color: white;
+        font-size: 2.5rem;
     }
     .navHidden{
         position: absolute;
@@ -80,12 +85,7 @@
         transition: all 0.5s;
         transform: translateX(0%);
     }
-    .menuToogle{
-        display: block;
-        cursor: pointer;
-        color: white;
-        font-size: 2.5rem;
-    }
+    
     .homeTitleContainer{
         height: 4.5rem;
     }
@@ -94,6 +94,12 @@
     }
     .clanIcon{
         width: 5rem;
+    }
+    .socialIconsCotainer{
+        display: flex;
+        flex-direction: column;
+        bottom: 40%;
+        left: 0;
     }
 }
 @media screen and (max-width : 375px) {
