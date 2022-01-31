@@ -1,88 +1,89 @@
-.homeContainer{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    background-image: url("../../assets/images/SamuraiBG.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;   
+.homeContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url("../../assets/images/SamuraiBG.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.headerHeight{
-    width: 100%;
-    height: 8rem;
+.headerHeight {
+  width: 100%;
+  height: 8rem;
 }
 /* Clan Icons CSS */
-.clanIconsCotainer{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 1%;
-    top: 25%;
+.clanIconsCotainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1%;
+  top: 25%;
 }
-.clanIcon{
-    width: 4rem;
-    height: auto;
-    padding: 1rem 0;
-    cursor: pointer;
+.clanIcon {
+  width: 4rem;
+  height: auto;
+  padding: 1rem 0;
+  cursor: pointer;
 }
-.clanButton{
-    border: none;
-    background-color: transparent;
+.clanButton {
+  border: none;
+  background-color: transparent;
 }
 /* Home Content CSS */
-.HomeContentContainer{
-    position: absolute;
-    left: 22%;
-    top: 35%;
+.HomeContentContainer {
+  position: absolute;
+  left: 22%;
+  top: 35%;
 }
-.homeTitleContainer{
-    height: 11rem;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.homeTitleContainer {
+  height: 11rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.homeTitle{
-    color: white;
-    font-family: kashima;
-    font-size: 10rem;
-    margin: 0;
+.homeTitle {
+  color: white;
+  font-family: kashima;
+  font-size: 10rem;
+  margin: 0;
 }
-.homeDes{
-    color: white;
-    margin: 0;
-    font-size: 2rem;
-    font-weight: 700;
+.homeDes {
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
 }
 /* Modal CSS */
-.tairaModal{
-    background-color: black;
+.tairaModal {
+  background-color: black;
+  border: 1px solid white;
 }
-.modalTitle{
-    color: white;
-    font-family: kashima;
-    font-size: 4rem;
-    text-align: center;
+.modalTitle {
+  color: white;
+  font-family: kashima;
+  font-size: 4rem;
+  text-align: center;
 }
-.modalDes{
-    color: white;
-    font-size: 1rem;
-    width: 80%;
-    margin: 0 auto;
+.modalDes {
+  color: white;
+  font-size: 1rem;
+  width: 80%;
+  margin: 0 auto;
 }
 /* Social Icons CSS */
-.socialIconsCotainer{
-    position: absolute;
-    bottom: 2%;
-    left: 47%;
+.socialIconsCotainer {
+  position: absolute;
+  bottom: 2%;
+  left: 47%;
 }
-.socialIcon{
-    color: white;
-    font-size: 2rem;
-    margin: 0 1rem;
+.socialIcon {
+  color: white;
+  font-size: 2rem;
+  margin: 0 1rem;
 }
 /* Custom Font */
 @font-face {
-    font-family: kashima;
-    src: url("../../assets/Font/Kashima.otf");
+  font-family: kashima;
+  src: url("../../assets/Font/Kashima.otf");
 }
