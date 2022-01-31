@@ -24,6 +24,10 @@
     padding: 1rem 0;
     cursor: pointer;
 }
+.clanButton{
+    border: none;
+    background-color: transparent;
+}
 /* Home Content CSS */
 .HomeContentContainer{
     position: absolute;
@@ -50,7 +54,22 @@
     font-size: 2rem;
     font-weight: 700;
 }
-
+/* Modal CSS */
+.tairaModal{
+    background-color: black;
+}
+.modalTitle{
+    color: white;
+    font-family: kashima;
+    font-size: 4rem;
+    text-align: center;
+}
+.modalDes{
+    color: white;
+    font-size: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
 /* Social Icons CSS */
 .socialIconsCotainer{
     position: absolute;

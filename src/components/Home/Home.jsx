@@ -9,6 +9,10 @@ import clanIconTwo from "../../assets/images/minamoto.png"
 import clanIconThree from "../../assets/images/tachiban.png"
 import clanIconFour from "../../assets/images/fujiwara.png"
 import FadeFunction from './FadeAnimation';
+import Taira from '../ClanModals/Taira';
+import Minamoto from '../ClanModals/Minamoto';
+import Tachiban from '../ClanModals/Tachiban';
+import Fujiwara from '../ClanModals/Fujiwara';
 const Home = () => {
     const {welcomeDesign , toDesign , projectDesign , startAnimation , interval} = FadeFunction()
 
@@ -20,13 +24,14 @@ const stopInterval = interval.current;
     };
   });
     return (
+      <>
         <div className='homeContainer'>
             {/* <Header></Header> */}<div className='headerHeight'></div>
             <div className="clanIconsCotainer">
-                <img src={clanIconOne} className='clanIcon' alt="" />
-                <img src={clanIconTwo} className='clanIcon' alt="" />
-                <img src={clanIconThree} className='clanIcon' alt="" />
-                <img src={clanIconFour} className='clanIcon' alt="" />
+                <button className='clanButton' type="button" data-bs-toggle="modal" data-bs-target="#taira"><img src={clanIconOne} className='clanIcon' alt="" /></button>
+                <button className='clanButton' type="button" data-bs-toggle="modal" data-bs-target="#minamoto"><img src={clanIconTwo} className='clanIcon' alt="" /></button>
+                <button className='clanButton' type="button" data-bs-toggle="modal" data-bs-target="#tachiban"><img src={clanIconThree} className='clanIcon' alt="" /></button>
+                <button className='clanButton' type="button" data-bs-toggle="modal" data-bs-target="#fujiwara"><img src={clanIconFour} className='clanIcon' alt="" /></button>
             </div>
             <div className="HomeContentContainer">
                <div className="homeTitleContainer">
@@ -41,6 +46,15 @@ const stopInterval = interval.current;
                 <a href='twitter'><FaTwitter className='socialIcon'/></a>
             </div>
         </div>
+        {/* Clan Modals HTML */}
+        <Taira/>
+      {/* minamoto */}
+      <Minamoto/>
+{/* tachiban */}
+      <Tachiban/>
+  {/* fujowara */}
+      <Fujiwara/>
+      </>
     );
 };
 
