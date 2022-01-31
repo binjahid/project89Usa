@@ -46,3 +46,58 @@
         top: 23%;
     }
 }
+@media screen and (max-width : 600px) {
+    .navContainer{
+        display: none;
+        z-index: 100;
+    }
+    .navHidden{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background-color: black;
+        width: 50%;
+        height: 100vh;
+        padding: 2rem;
+        transition: all 0.5s;
+        transform: translateX(-100%);
+    }
+    .navContainerActive{
+        /* display: none; */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background-color: black;
+        width: 50%;
+        height: 100vh;
+        padding: 2rem;
+        transition: all 0.5s;
+        transform: translateX(0%);
+    }
+    .menuToogle{
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 2.5rem;
+    }
+    .homeTitleContainer{
+        height: 4.5rem;
+    }
+    .homeDes{
+        font-size: 1.2rem;
+    }
+    .clanIcon{
+        width: 5rem;
+    }
+}
+@media screen and (max-width : 375px) {
+    .clanIcon{
+        width: 4rem;
+    }
+}

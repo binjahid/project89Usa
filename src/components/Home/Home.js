@@ -2,7 +2,7 @@ import React from 'react';
 
 import {FaDiscord ,FaInstagram , FaTwitter} from "react-icons/fa";
 
-import Header from '../Shared/Header/Header';
+// import Header from '../Shared/Header/Header';
 import "./Home.css"
 import clanIconOne from "../../assets/images/Taira.png"
 import clanIconTwo from "../../assets/images/minamoto.png"
@@ -11,92 +11,6 @@ import clanIconFour from "../../assets/images/fujiwara.png"
 import FadeFunction from './FadeAnimation';
 const Home = () => {
     const {welcomeDesign , toDesign , projectDesign , startAnimation , interval} = FadeFunction()
-//     const clanCommonDesing = {
-//         fontFamily: "kashima",
-//         fontSize: "10rem",
-//         margin: 0,
-//         fontWeight :400,
-//         position : "absolute",
-//         transition : "1s",
-//         color: "white",
-//     }
-//     const [welcomeDesign , setWelcomeDesign] = React.useState({color: "white",
-//         fontFamily: "kashima",
-//         fontSize: "10rem",
-//         margin: 0,
-//         fontWeight :400,
-//         position : "absolute",
-//         opacity : 1,
-//         transition : "1s",
-//         active : true
-        
-//     })
-//     const [toDesign , setToDesing] = React.useState({color: "white",
-//     fontFamily: "kashima",
-//     fontSize: "10rem",
-//     margin: 0,
-//     fontWeight :400,
-//     position : "absolute",
-//     opacity : 0,
-//     transition : "1s",
-//     active : false
-// })
-//     const [projectDesign , setProjectDesign] = React.useState({color: "white",
-//     fontFamily: "kashima",
-//     fontSize: "10rem",
-//     margin: 0,
-//     fontWeight :400,
-//     position : "absolute",
-//     opacity : 0,
-//     transition : "1s",
-//     active : false
-// })
-
-// const interval = React.useRef();
-
-// const startAnimation = () => {
-//     interval.current = setInterval(() => {
-//         if(welcomeDesign.active === true ){
-//             setWelcomeDesign(
-//                 {...clanCommonDesing , opacity : 0 , active : false}
-//             )
-//             setToDesing(
-//                 {
-//                     ...clanCommonDesing , opacity : 1 , active : true
-//                 }
-//             )
-//             setProjectDesign({
-//                 ...clanCommonDesing , opacity : 0 , active : false
-//             })
-//         }
-//         else if(toDesign.active === true ){
-//             setWelcomeDesign(
-//                 {...clanCommonDesing , opacity : 0 , active : false}
-//             )
-//             setToDesing(
-//                 {
-//                     ...clanCommonDesing , opacity : 0 , active : false
-//                 }
-//             )
-//             setProjectDesign({
-//                 ...clanCommonDesing , opacity : 1 , active : true
-//             })
-//         }
-//         else if(projectDesign.active === true ){
-//             setWelcomeDesign(
-//                 {...clanCommonDesing , opacity : 1 , active : true}
-//             )
-//             setToDesing(
-//                 {
-//                     ...clanCommonDesing , opacity : 0 , active : false
-//                 }
-//             )
-//             setProjectDesign({
-//                 ...clanCommonDesing , opacity : 0 , active : false
-//             })
-//         }
-//     }, 4000);
-// }
 
 const stopInterval = interval.current;
   React.useEffect(() => {
@@ -107,7 +21,7 @@ const stopInterval = interval.current;
   });
     return (
         <div className='homeContainer'>
-            <Header></Header>
+            {/* <Header></Header> */}<div className='headerHeight'></div>
             <div className="clanIconsCotainer">
                 <img src={clanIconOne} className='clanIcon' alt="" />
                 <img src={clanIconTwo} className='clanIcon' alt="" />
