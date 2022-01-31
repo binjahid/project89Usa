@@ -1,0 +1,48 @@
+@media screen and (max-width : 1280px) {
+    .socialIconsCotainer{
+        left: 44%;
+    }
+}
+@media screen and (max-width : 1030px) {
+    .socialIconsCotainer{
+        left: 40%;
+    }
+}
+@media screen and (max-width : 930px) {
+    .homeContainer{
+        background-image: url("./assets/images/MobileBG.png");
+    }
+    .HomeContentContainer{
+        /* 
+        left: 40%; */
+        top: 8%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .homeDes{
+        text-align: center;
+    }
+    .homeTitleContainer{
+        height: 9rem;
+    }
+    .clanIconsCotainer{
+        flex-direction: row;
+        left: 0;
+        right: 0;
+        margin: auto;
+        justify-content: center;
+    }
+    .clanIcon{
+        width: 6rem;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width : 768px) {
+    .homeTitleContainer{
+        height: 8rem;
+    }
+    .clanIconsCotainer{
+        top: 23%;
+    }
+}

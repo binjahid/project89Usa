@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;   
 }
+/* Clan Icons CSS */
 .clanIconsCotainer{
     display: flex;
     flex-direction: column;
@@ -19,14 +20,19 @@
     padding: 1rem 0;
     cursor: pointer;
 }
+/* Home Content CSS */
 .HomeContentContainer{
     position: absolute;
-    left: 12%;
+    left: 22%;
     top: 35%;
 }
 .homeTitleContainer{
     height: 11rem;
     position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .homeTitle{
     color: white;
@@ -40,6 +46,19 @@
     font-size: 2rem;
     font-weight: 700;
 }
+
+/* Social Icons CSS */
+.socialIconsCotainer{
+    position: absolute;
+    bottom: 2%;
+    left: 47%;
+}
+.socialIcon{
+    color: white;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+/* Custom Font */
 @font-face {
     font-family: kashima;
     src: url("../../assets/Font/Kashima.otf");
