@@ -1,109 +1,113 @@
-@media screen and (max-width : 1280px) {
-    .socialIconsCotainer{
-        left: 44%;
-    }
+@media screen and (max-width: 1280px) {
+  .socialIconsCotainer {
+    left: 44%;
+  }
 }
-@media screen and (max-width : 1030px) {
-    .socialIconsCotainer{
-        left: 40%;
-    }
+@media screen and (max-width: 1030px) {
+  .socialIconsCotainer {
+    left: 40%;
+  }
+  .clanIcon {
+    width: 3rem;
+  }
 }
-@media screen and (max-width : 930px) {
-    .homeContainer{
-        background-image: url("./assets/images/MobileBG.png");
-    }
-    .HomeContentContainer{
-        /* 
+@media screen and (max-width: 930px) {
+  .homeContainer {
+    background-image: url("./assets/images/MobileBGcopy.png");
+  }
+  .HomeContentContainer {
+    /* 
         left: 40%; */
-        top: 8%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-    .homeDes{
-        text-align: center;
-    }
-    .homeTitleContainer{
-        height: 9rem;
-    }
-    .clanIconsCotainer{
-        flex-direction: row;
-        left: 0;
-        right: 0;
-        margin: auto;
-        justify-content: center;
-    }
-    .clanIcon{
-        width: 6rem;
-        padding: 1rem;
-    }
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .homeDes {
+    text-align: center;
+  }
+  .homeTitleContainer {
+    height: 9rem;
+  }
+  .clanIconsCotainer {
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    top: 27% !important;
+  }
+  .clanIcon {
+    width: 6rem;
+    padding: 0.2rem;
+  }
+  .socialIconsCotainer {
+    display: flex;
+    flex-direction: column;
+    bottom: 40%;
+    left: 0;
+  }
 }
-@media screen and (max-width : 768px) {
-    .homeTitleContainer{
-        height: 8rem;
-    }
-    .clanIconsCotainer{
-        top: 23%;
-    }
+@media screen and (max-width: 768px) {
+  .homeTitleContainer {
+    height: 8rem;
+  }
+  .clanIconsCotainer {
+    top: 23%;
+  }
 }
-@media screen and (max-width : 600px) {
-    .navContainer{
-        display: none;
-    }
-    .menuToogle{
-        display: block !important;
-        cursor: pointer;
-        color: white;
-        font-size: 2.5rem;
-    }
-    .navHidden{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: 0;
-        left: 0;
-        z-index: 100;
-        background-color: black;
-        width: 50%;
-        height: 100vh;
-        padding: 2rem;
-        transition: all 0.5s;
-        transform: translateX(-100%);
-    }
-    .navContainerActive{
-        /* display: none; */
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: 0;
-        left: 0;
-        z-index: 100;
-        background-color: black;
-        width: 50%;
-        height: 100vh;
-        padding: 2rem;
-        transition: all 0.5s;
-        transform: translateX(0%);
-    }
-    
-    .homeTitleContainer{
-        height: 4.5rem;
-    }
-    .homeDes{
-        font-size: 1.2rem;
-    }
-    .clanIcon{
-        width: 5rem;
-    }
-    .socialIconsCotainer{
-        display: flex;
-        flex-direction: column;
-        bottom: 40%;
-        left: 0;
-    }
+@media screen and (max-width: 600px) {
+  .navContainer {
+    display: none;
+  }
+  .menuToogle {
+    display: block !important;
+    cursor: pointer;
+    color: white;
+    font-size: 2.5rem;
+  }
+  .navHidden {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    padding: 2rem;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+  }
+  .navContainerActive {
+    /* display: none; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    padding: 2rem;
+    transition: all 0.5s;
+    transform: translateX(0%);
+  }
+
+  .homeTitleContainer {
+    height: 4.5rem;
+  }
+  .homeDes {
+    font-size: 1.2rem;
+  }
+  .clanIcon {
+    width: 5rem;
+  }
 }
-@media screen and (max-width : 375px) {
-    .clanIcon{
-        width: 4rem;
-    }
+@media screen and (max-width: 375px) {
+  .clanIcon {
+    width: 3.5rem;
+  }
 }

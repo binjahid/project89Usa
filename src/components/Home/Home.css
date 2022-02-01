@@ -27,6 +27,7 @@
 .clanButton {
   border: none;
   background-color: transparent;
+  padding: 0;
 }
 /* Home Content CSS */
 .HomeContentContainer {

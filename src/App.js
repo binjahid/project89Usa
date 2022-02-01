@@ -3,13 +3,13 @@ import Header from "./components/Shared/Header/Header";
 import RoadMap from "./components/RoadMap/RoadMap";
 import Team from "./components/Team/Team";
 import MarketPlace from "./components/MarketPlace/MarketPlace"
+import Mint from "./components/Mint/Mint";
 
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import "./Media.css"
-import Mint from "./components/Mint/Mint";
 
+import "./Media.css"
 function App() {
   return (
     <>
