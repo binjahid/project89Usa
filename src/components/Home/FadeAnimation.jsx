@@ -2,8 +2,8 @@ import React from 'react';
 import GetWidthook from '../GetWidthHook';
 const FadeFunction = () => {
     const {width} =  GetWidthook()
-    const fontSize = width <= 1025 ? "8rem" :"10rem" 
-    const fontSizeMobile = width <= 600 ? "4rem" :"8rem"
+    const fontSize = width <= 1025 ? "7rem" :"10rem" 
+    const fontSizeMobile = width <= 600 ? "4.8rem" :"8rem"
     // console.log(fontSize);
     const interval = React.useRef();
     const clanCommonDesing = {
@@ -98,3 +98,7 @@ const FadeFunction = () => {
     }
 }
 export default FadeFunction
+
+
+
+  

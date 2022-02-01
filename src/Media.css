@@ -13,13 +13,13 @@
 }
 @media screen and (max-width: 930px) {
   .homeContainer {
-    background-image: url("./assets/images/MobileBGcopy.png");
+    background-image: url("./assets/images/tabletBG.png");
   }
   .HomeContentContainer {
     /* 
         left: 40%; */
-    top: 8%;
-    left: 0;
+    top: 40%;
+    left: -42%;
     right: 0;
     margin: auto;
   }
@@ -31,24 +31,29 @@
   }
   .clanIconsCotainer {
     flex-direction: row;
-    left: 0;
+    left: 11%;
     right: 0;
     margin: auto;
-    justify-content: center;
-    top: 27% !important;
+    justify-content: flex-start;
+    top: 60% !important;
   }
   .clanIcon {
-    width: 6rem;
+    width: 4.2rem;
     padding: 0.2rem;
   }
   .socialIconsCotainer {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    bottom: 40%;
-    left: 0;
+    bottom: 40%; */
+    left: 25%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) and (min-width: 912px) {
+  .clanIconsCotainer {
+    left: 13%;
+  }
+}
+@media screen and (max-width: 810px) and (min-width: 790px) {
   .homeTitleContainer {
     height: 8rem;
   }
@@ -56,7 +61,24 @@
     top: 23%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  .HomeContentContainer {
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .clanIconsCotainer {
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    top: 27% !important;
+  }
+  .homeContainer {
+    background-image: url("./assets/images/MobileBGcopy.png");
+  }
   .navContainer {
     display: none;
   }
@@ -103,11 +125,17 @@
     font-size: 1.2rem;
   }
   .clanIcon {
-    width: 5rem;
+    width: 3.4rem;
+  }
+  .socialIconsCotainer {
+    display: flex;
+    flex-direction: column;
+    bottom: 40%;
+    left: 0%;
   }
 }
 @media screen and (max-width: 375px) {
   .clanIcon {
-    width: 3.5rem;
+    width: 2.5rem;
   }
 }
