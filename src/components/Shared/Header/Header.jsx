@@ -28,7 +28,7 @@ const Header = () => {
                 <Link onClick={() => {setShow(false) ; setActive("roadMap") }} className={active === "roadMap" ? 'menuItem menuItemActive' : 'menuItem menuItemNotActive'} to="/roadmap">RoadMap</Link>
                <Link onClick={() => {setShow(false) ; setActive("team")}} className={active === "team" ? 'menuItem menuItemActive' : 'menuItem menuItemNotActive'} to="/team">Team</Link>
                 <Link onClick={() => {setShow(false) ; setActive("marketPlace")}} className={active === "marketPlace" ? 'menuItem menuItemActive' : 'menuItem menuItemNotActive'} to="/marketplace">MarketPlace</Link>
-                <Link onClick={() => {setShow(false) ; setActive("mint")}} className={active === "mint" ? 'menuItem menuItemActive' : 'menuItem menuItemNotActive'} to="/mint">Mint Here</Link>
+                <Link onClick={() => {setShow(false) ; setActive("mint")}} className={active === "mint" ? 'menuItem menuItemActive' : 'menuItem menuItemNotActive'} to="/mint">Mint</Link>
             </nav>
             <GiHamburgerMenu onClick={() => {setShow(!show)}} className="menuToogle"/>
              </div>

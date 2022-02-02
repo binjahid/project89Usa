@@ -3,6 +3,14 @@
     left: 44%;
   }
 }
+@media (min-height: 1366px) and (max-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+  .HomeContentContainer {
+    top: 20%;
+  }
+  .clanIcon {
+    width: 4.5rem;
+  }
+}
 @media screen and (max-width: 1030px) {
   .socialIconsCotainer {
     left: 40%;
@@ -13,7 +21,7 @@
 }
 @media screen and (max-width: 930px) {
   .homeContainer {
-    background-image: url("./assets/images/tabletBG.png");
+    background-image: url("./assets/images/tabletBGcopy.png");
   }
   .HomeContentContainer {
     /* 
